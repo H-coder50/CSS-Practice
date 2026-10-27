@@ -1,0 +1,28 @@
+/* for align text center */
+h1{text-align: center;}
+
+/*
+Sirf jis paragraph ki class "center-text" hai,
+usko center mein align karo.
+*/
+.center-text {
+    text-align: center;
+}
+
+/* For text decoration */
+#txdec{text-decoration: underline;}
+
+/* for more info see website link a */
+/* for no underline */
+a{text-decoration: none;}
+
+/* For font weight */
+#head1{font-weight: bold;}
+#head2{font-weight: normal;}
+#head3{font-weight: bolder;}
+#head4{font-weight: 500;}
+
+/* Font Family */
+#p1{font-family: Arial;}
+#p2{font-family: 'Times New Roman';}
+#p3{font-family: 'Courier New', Courier, monospace;}

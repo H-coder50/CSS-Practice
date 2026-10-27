@@ -1,0 +1,16 @@
+h1{color: red;}
+h3{color: green;}
+p{color: blue;}
+
+button{color: rgb(128, 4, 244);
+background-color: rgb(166, 213, 47);}
+
+body{background-color: rgb(67, 55, 55);}
+
+
+#id1{color: darkorange;}
+#id2{color: rgb(133, 205, 61);}
+#id3{color: rgb(185, 144, 223);}
+
+.class1{color: rgb(67, 73, 203);}
+

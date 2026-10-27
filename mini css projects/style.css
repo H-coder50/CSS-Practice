@@ -1,0 +1,12 @@
+/* for heading colo */
+h1{color: darkmagenta;}
+
+/* id name # k sath "box" background color blue*/
+#box{color: aliceblue;
+    background-color: blue;}
+
+/* .k sath class ka name "heading" */
+.heading{color: red;}    
+
+button{background-color: green;
+color: white;}
