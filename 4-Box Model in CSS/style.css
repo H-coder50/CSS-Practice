@@ -1,0 +1,64 @@
+/* 🧠 Easy way to remember
+Content → Padding → Border → Margin
+
+👉 Content = andar ka actual material
+👉 Padding = content ke around andar ki space
+👉 Border = box ki boundary
+👉 Margin = box ke bahar ki space */
+
+/* div1 hight & width by defualt set hy */
+#div1{background-color: rgb(231, 80, 158);}
+
+
+/* yahan div2 ki hight ko increse kiya 
+add background color for highlight then inspect*/
+#div2{height: 100px;
+background-color: aqua;}
+
+/* div3 me hieght & width ko set kiya hy */
+#div3{height: 100px;
+    width: 100px;
+background-color: rgb(181, 241, 61);}
+
+/* div4 me border-style & border-color set karenge */
+#div4{height: 200px;
+    width: 200px;
+background-color: rgb(227, 128, 15);
+border-style: solid;
+border-color: brown;}
+
+/* div5 me border style change set karenge */
+#div5{height: 100px;
+    width: 100px;
+background-color: rgb(15, 156, 227);
+border-style: dotted;
+border-color: brown;}
+
+/* apply all properties in h1 */
+h1{height: 50px;
+width: 300px;
+background-color: dimgray;
+color: chartreuse;
+border-style: dashed;
+border-color: black;
+text-align: center;}
+
+/* Round the border use border-radius */
+h2{height: 200px;
+width: 200px;
+background-color: rgb(198, 12, 12);
+color: chartreuse;
+border-style: solid;
+border-color: black;
+text-align: center;
+border-radius: 25px;}
+
+/* create circle, border-radius 50% */
+h3{height: 200px;
+width: 200px;
+background-color: rgb(198, 12, 12);
+color: chartreuse;
+border-style: solid;
+border-color: black;
+text-align: center;
+border-radius: 50%;}
