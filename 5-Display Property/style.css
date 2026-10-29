@@ -1,0 +1,35 @@
+/* by defualt h1 occupy all space */
+#h1{background-color: aquamarine;}
+
+/* but can change its display property */
+#h2{background-color: darksalmon;
+display: inline;}
+
+/* by defualt button occupy required space */
+#b1{background-color: chartreuse;}
+
+/* but can change its display property */
+#b2{background-color: darkorchid;
+display: block;}
+
+/* created 3 div boxes now diplay setting with all div*/
+/* yahan margin right & left 25 ho ga top bottom nahi , inline ki waja se*/
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+} 
+
+/* margin all side equal set karne k ley use inline-block */
+/* all margin equal ho ga */
+h3{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block
+}
+
+/* if we dont want to display any element, use display none */
