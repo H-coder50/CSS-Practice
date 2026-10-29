@@ -8,5 +8,26 @@ h1{color: darkmagenta;}
 /* .k sath class ka name "heading" */
 .heading{color: red;}    
 
-button{background-color: green;
+
+/* Project nevbar */
+/* for big project, padding, margin set to 0 */
+/* Is me hum univarsal setting karte hen */
+*{padding: 0;
+  margin: 0;
 color: white;}
+
+#navbar{height: 60px;
+background-color: #0f1111;}  
+
+button{background-color: #f08804;}
+
+#logo{color: #f08804;
+font-size: 25px;}
+
+/* Now we use margin (space)for one anchor tag to another */
+/* jab a se link add karte hen tu text k neche underline ata hy
+usko remove karne k ley text-decoration: none karte hen */
+a{margin-right: 200px;
+text-decoration: none;}
+
+

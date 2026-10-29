@@ -62,3 +62,65 @@ border-style: solid;
 border-color: black;
 text-align: center;
 border-radius: 50%;}
+
+/* Create padding space */
+#pad1{height: 100px;
+    width: 100px;
+    background-color: rgb(219, 229, 24);
+    border-style: solid;
+    border-color: black;
+    padding-left: 50px;}
+
+#pad2{height: 100px;
+    width: 100px;
+    background-color: rgb(24, 229, 55);
+    border-style: solid;
+    border-color: black;
+    padding-top: 50px;}   
+    
+#pad3{height: 100px;
+    width: 100px;
+    background-color: rgb(227, 56, 187);
+    border-style: solid;
+    border-color: black;
+    padding-left: 50px;
+    padding-right: 50px;}     
+
+ /* padding shorthand (all side same padding)
+ top, right, bottom, left */
+ #pad4{height: 100px;
+    width: 100px;
+    background-color: rgb(56, 153, 227);
+    border-style: solid;
+    border-color: black;
+    padding: 50px;}
+
+ /* Margin (space between one box to another */
+ #m1{height: 100px;
+    width: 100px;
+    background-color: rgb(230, 139, 69);
+    border-style: solid;
+    border-color: black;
+    margin-top: 50px;}
+
+ #m2{height: 100px;
+    width: 100px;
+    background-color: rgb(56, 153, 227);
+    border-style: solid;
+    border-color: black;
+    margin-right: 25px;} 
+    
+ #m3{height: 100px;
+    width: 100px;
+    background-color: rgb(227, 56, 133);
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 80px;}  
+    
+ #m4{height: 100px;
+    width: 100px;
+    background-color: rgb(150, 227, 56);
+    border-style: solid;
+    border-color: black;
+    margin: 25px;}   
+    
