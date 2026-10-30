@@ -1,0 +1,41 @@
+/* Create nevbar */
+*{padding: 0;
+  margin: 0;
+color: white;}
+
+#navbar{height: 60px;
+background-color: #0f1111;}  
+
+button{background-color: #f08804;}
+
+#logo{color: #f08804;
+font-size: 25px;}
+
+/* use margin (space)for one anchor tag to another */
+/* for removing underline, text-decoration: none */
+a{margin-right: 200px;
+text-decoration: none;}
+
+
+/* Set hight for content box class */
+.contentbox{
+    height: 100px;
+    width: 100px;
+    /* add border to all divs */
+    border: 2px solid black;
+    /* add different background color to each div with an opacity of 0.5 */
+    /* isko html me hi her div k ley set karenge */
+    /* display all div inline-block */
+    display: inline-block;
+    /* for text color in box */
+    color: black;
+    }
+
+ /* Add hight between content & footer  */
+ #content{height: 700px;}
+
+ /*for footer */
+footer{background-color: #0f1111;
+color: white;
+text-align: center;} 
+
