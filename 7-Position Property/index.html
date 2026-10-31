@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <h1>Position Property</h1>
+    <!--static — Default. Element stays in the normal document flow. top, left, etc.
+     don’t work.
+    relative — Element stays in its normal space but can be shifted relative to 
+    its original position.
+    absolute — Element is removed from normal flow and positioned relative to 
+    its nearest positioned ancestor (an ancestor whose position isn’t static).
+    fixed — Positioned relative to the browser viewport and usually stays in 
+    place while scrolling.
+    sticky — Behaves normally until a scroll threshold is reached, then “sticks.”-->
+    <!--relative → adjust from itself
+        absolute → position inside an ancestor
+        fixed → position against the screen
+        sticky → stick while scrolling.-->
+<body>
+    <div id="box1" style="background-color: red;">box1</div>
+    <div id="box2" style="background-color: blue;">box2</div>
+    <div id="box3" style="background-color: green;">box3</div>
+    <div id="box4" style="background-color: rgb(216, 51, 191);">box4</div>
+    <div id="box5" style="background-color: rgb(217, 224, 9);">box5</div>
+    <div id="box6" style="background-color: rgb(25, 222, 239);">box6</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, 
+       sed tempore nam eius similique aliquam itaque sunt! Itaque necessitatibus 
+       id fugiat atque quam odio quisquam nisi asperiores, officia velit! Totam.
+       Deserunt quas unde quisquam maxime quo iste. Odio ex error labore ullam amet, 
+       laudantium dicta praesentium, iusto rerum hic, modi odit qui harum quos! 
+       Quidem natus hic maxime ex assumenda.</p>
+    
+</body>
+</html>

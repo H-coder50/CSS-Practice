@@ -1,0 +1,47 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    /* no movement in static position */
+}
+
+/* no movement in static position */
+/* either top, left, right set, no change occur*/
+#box1{position: static;
+top: 10px;
+bottom: 10px;}
+
+/*movement in relative position */
+#box2{position: relative;
+top: 20px;
+left: 20px;}
+
+/* absolute position depends on body tag */
+/* shift top position according to document */
+#box3{position: absolute;
+top: 10px;} 
+
+/* fixed position according to browser */
+#box4{position: fixed;
+/* if want to bottom (footer) position */
+bottom: 0;
+/* if footer like add width */
+width: 100%;
+display: block;
+}
+
+/* if set navbar position */
+#box5{position: fixed;
+top: 0;
+width: 100%;
+display: block;}
+
+/* sticky position stick box*/
+#box6{position: sticky;
+}
+
+
+
+
+
