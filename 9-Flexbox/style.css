@@ -1,0 +1,33 @@
+/* body me text align center se sub center me ho ga */
+body{text-align: center;}
+
+/* for all div  */
+div{height: 100px;
+width: 100px;
+display: inline-block;
+border: 2px solid black 
+}
+
+/* container height & width */
+#container{height: 200px;
+width: 800px;
+/* used flex model for container */
+display: flex;
+/* now use flex-direction for element */
+/* flex-direction: row (also defualt, right to left) */
+/* flex-direction: row-reverse (left to right element)*/
+flex-direction: row;
+/* flex-direction: column (set element in column) */
+/* flex-direction: column-reverse (element will be reverse in column) */
+/* all element center */
+/* justify-content: center; */
+/* if space-evenly (all element with same gap) */
+justify-content: space-evenly;
+}
+
+/* color all box */
+#box1{background-color: aqua;}
+#box2{background-color: rgb(233, 244, 35);}
+#box3{background-color: rgb(218, 52, 193);}
+#box4{background-color: rgb(28, 229, 52);}
+#box5{background-color: rgb(230, 156, 45);}

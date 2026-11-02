@@ -1,0 +1,39 @@
+/* div{height: 100px; 
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;}*/
+
+/* if want to background image as whole yuor website, use body tag */
+body{height: 100px; 
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url("nature-photo.jpg");
+    background-size: cover;}      
+
+#box1{height: 100px; 
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url("cat-photo.jpg");
+    /* background size for image   */
+    /* bachground size: cover (its cover complete area) */
+    background-size: cover;}
+
+#box2{height: 100px; 
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url(flower-photo.jpg);
+    /* fix but repeat when its cover area */
+    background-size: contain;}     
+
+#box3{height: 100px; 
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-image: url(baby-photo.jpg);
+    /* its cover as image size big or short */
+    background-size: auto;} 
+
+        
