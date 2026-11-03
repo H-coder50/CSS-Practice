@@ -1,0 +1,27 @@
+div{height: 100px;
+width: 100px;
+background-color: chartreuse;}
+ 
+/* Now applying media (when width:600px, div turn to red)*/
+/* when inspect & twig & adjust into 600 it red */
+@media(width: 600px){
+    div{background-color: red;}
+}
+
+/* when media width above 600, use min-width */
+@media(min-width: 600px) {
+    div{background-color: blue;}
+}
+
+/* when media width below 600, use max-width */
+@media(max-width: 400px) { 
+    div{background-color: rgb(204, 217, 15);}
+}
+
+/* we can combine it */
+@media(min-width: 200px) and (max-width: 300px)
+{
+    div{background-color: rgb(220, 32, 148);}
+}
+
+
