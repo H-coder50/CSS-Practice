@@ -1,0 +1,35 @@
+/* for problem 1 */
+/* make ul(navbar) as container(for flex property) */
+.navbar{
+    background-color: aquamarine;
+    display: flex;
+    /* use it for element palce proper with gap */
+    justify-content: space-evenly;
+}
+
+/* remove underline of anchor tag */
+a{text-decoration: none;
+color: black;
+background-color: bisque;
+} 
+
+/* remove dot for list */
+li{list-style-type: none;
+display: inline;}
+
+
+/* for problem 2 */
+/* make outer as container(for flex property) */
+.outer{height: 300px;
+width: 300px;
+background-color: rgb(222, 41, 180);
+display: flex;              /* 1. Turns the outer box into a flex container */
+justify-content: center;    /* 2. Centers items horizontally (along the main axis) */
+align-items: center;        /* 3. Centers items vertically (along the cross axis) */
+}       
+
+.inner{height: 150px;
+width: 150px;
+background-color: rgb(41, 162, 222);
+}
+
